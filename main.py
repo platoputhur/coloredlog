@@ -9,7 +9,6 @@ ch.setLevel(logging.DEBUG)
 ch.setFormatter(CustomFormatter())
 if not logger.hasHandlers():
     logger.addHandler(ch)
-logger.addHandler(ch)
 
 # Sample usage
 format = "%(name)s - %(levelname)s - %(message)s (%(filename)s:%(lineno)d)"
