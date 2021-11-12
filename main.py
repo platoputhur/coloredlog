@@ -7,6 +7,8 @@ logger.setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)
 ch.setFormatter(CustomFormatter())
+if not logger.hasHandlers():
+    logger.addHandler(ch)
 logger.addHandler(ch)
 
 # Sample usage
