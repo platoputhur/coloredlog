@@ -29,6 +29,9 @@ logger.warning("This is warn logging")
 logger.error("This is error logging")
 logger.critical("This is critical logging")
 ```
+### Output
+![](https://user-images.githubusercontent.com/8054334/141496314-523c0b9f-a5fd-4d0b-bb2d-3e74e7deaf53.png)
+
 
 
 ## Here's a list of all the colors and styles
